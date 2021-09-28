@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ex1.css" />
+    
+    <style>
+        body {background-color: aqua;}
+        h1 {text-align: center;font-style: italic;font-size: x-large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-shadow: 5px 5px 3px  grey;}
+        h2 {font-size: 34pt;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: normal;}
+        h2+ p::first-letter {font-size: x-large;color: rgb(128, 0, 0);}
+        p {font-size: 16pt;}
+        a:hover {font-size: 120%;}
+        .b1 {background-color: rgb(180, 180, 224);}
+        .b2 {background-color: lightcoral;}
+        .b3 {background-color: lightsalmon;}
+        ol {list-style-type: square;}
+        li ul {display:none}
+		li:hover ul {display:block}
+        @font-face {
+            font-family:mishella;
+            src: url(Mishella-w1Pdw.otf);}
+        h1 {font-family: mishella;}
+        h1.bord {font-size: x-large;}
+        .i1 {position:fixed; top: 120px; left: 100px; border: solid cadetblue 2px;}
+        .Nav_Bar {position: sticky; top: 0px; left: 0px; width: 100%;}
+.Nav_Bar ul {list-style-type: none; margin: 0; padding: 0; overflow: auto; background-color: rgb(50, 50, 50); border-radius: 5px;}
+.Nav_Bar li {float: left;}
+.Nav_Bar li a {display: inline-block; color: white; text-align: center; padding: 15px; text-decoration: none; min-width: 100px; font-weight:lighter;}
+.Nav_Bar a.Active {background-color: darkred;}
+.Nav_Bar li a:hover, .Nav_Bar a.Active:hover {background-color: red;}
+.Nav_Bar .Dropdown_Content {display: none; position: absolute; background-color: rgb(50, 50, 50); min-width: 100px; z-index: 1; }
+.Nav_Bar .Dropdown_Content a {display: block; text-align: left;}
+.Nav_Bar li.Dropdown:hover .Dropdown_Content {display: block;}
+
+    </style>
+    <title>My Interests</title>
+</head>
+<!--This is a page about my interests.-->
+<body style="background-color: lightblue">
+    <h1 style="color: navy;"> My Interests</h1>
+    <div class="Nav_Bar">
+        <ul>
+            <li><a href="interests.htm" class="Active">Home</a></li>
+            <li class="Dropdown">
+              <a href="https://www.searchenginejournal.com/alternative-search-engines/271409/">Search Engines</a>
+                <div class="Dropdown_Content">
+                    <a href="http://www.google.com">Google </a>
+                    <a href="http://www.bing.com">Bing </a>
+                </div>
+            </li>
+            <li class="Dropdown">
+                <a href="https://www.usnews.com/best-colleges">Other Pages</a>
+                  <div class="Dropdown_Content">
+                      <a href="file:///Users/rajnandiniagarwal/Desktop/session%207/index.htm">All About Rajnandini</a>
+                      
+                  </div>
+              </li>
+          </ul>
+    </div>
+    <h1>My Interests </h1> 
+    
+  <p> My interests are listening to <a href="#m1"> music</a>, <a href="#f1">food </a> and <a href="#t1"> travelling </a> </p>
+  <p> Interests </p>
+  <ol> 
+      <li>Music artists 
+          <ul>
+              <li>John Mayer</li>
+              <li>The Weeknd</li>
+              <li> Arctic Monkeys </li>
+          </ul>
+          </li>
+          <li> Food</li>
+          <li>Travelling
+          <ul> 
+              <li> United Kingdom </li>              
+            <li> France</li>
+            <li> Maldives</li>
+            </ul>
+            </li>
+          </ol>
+        
+    
+     
+  
+<div class="b1">
+    <h2 id="m1"> Music </h2> 
+    <p>I like music </p>
+
+    <p>
+        I enjoy listening to <a href="https://music.apple.com/us/listen-now?ign-itscg=20200&ign-itsct=rv_eve&ls=1&mttnagencyid=2433&mttncc=US&mttnpid=305109&mttnsiteid=125115&mttnsubad=mus-117459023029&mttnsubkw=ag-117459023029-ad-499653232768" target="_blank">music. </a> 
+        </p></div>
+        <div class="b2">
+    <h2 id= "f1">Food </h2>
+    
+    <p> I like to cook  love to <a href="https://www.food.com/" target="_blank"> cook. </a> </p> </div>
+    <div class="i1">
+    <img src="https://media.istockphoto.com/photos/food-backgrounds-table-filled-with-large-variety-of-food-picture-id1155240408?k=20&m=1155240408&s=612x612&w=0&h=Zvr3TwVQ-wlfBnvGrgJCtv-_P_LUcIK301rCygnirbk=" alt= "food image" usemap="#image-map" /> </div>
+    <map name="image-map">
+        <area target="_blank" alt="Avocados" title="Avocados" href="https://www.healthline.com/nutrition/12-proven-benefits-of-avocado" coords="247,2,367,134" shape="rect">
+    </map>
+    <div class="b3">
+    <h2 id="t1"> Travelling</h2>
+    <p> I like to visit new places.   I also enjoy <a href="https://in.pinterest.com/ideas/travel/908182459161/" target="_blank"> travelling. </a>  </p> </div>
+
+   <a href="https://in.pinterest.com/ideas/travel/908182459161/" target="_blank" > <img src = "https://lp-cms-production.imgix.net/features/2019/05/Solo-Travel-in-Nature-acbfea52bfaf.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1" alt="traveller image" width=400 height=400 /> </a>
+    
+    
+   <h5> <a href="index.htm" target="_blank" >All About Rajnandini </a> </h5>
+</body>
+</html>

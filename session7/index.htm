@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ex1.css" />
+    <style>
+        body {background-image:url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);}
+        body {color: cadetblue;}
+        h1 {text-align: center;font-size: large;font-family: 'Times New Roman', Times, serif; border-style: double;border-color: pink; padding-top: 30px;padding-right: 10%;padding-bottom: 10px;padding-left: 15%;}
+        p {text-align: center;font-size: small;font-family: 'Times New Roman', Times, serif;}
+        span {color:black; font-style:italic;text-shadow: 5px 5px 3px  grey;}
+        .center {display: block; margin-left: auto; margin-right: auto;}
+        @font-face {
+            font-family:mishella;
+            src: url(Mishella-w1Pdw.otf);}
+        h1 {font-family: mishella;}
+        div {position:fixed; top: 120px; left: 100px; bottom: 20cm; border: solid cadetblue 2px;}
+        .Nav_Bar {position: sticky; top: 0px; left: 0px; width: 100%;}
+.Nav_Bar ul {list-style-type: none; margin: 0; padding: 0; overflow: auto; background-color: rgb(50, 50, 50); border-radius: 5px;}
+.Nav_Bar li {float: left;}
+.Nav_Bar li a {display: inline-block; color: white; text-align: center; padding: 15px; text-decoration: none; min-width: 100px; font-weight:lighter;}
+.Nav_Bar a.Active {background-color: navy;}
+.Nav_Bar li a:hover, .Nav_Bar a.Active:hover {background-color: cadetblue;}
+.Nav_Bar .Dropdown_Content {display: none; position: absolute; background-color: rgb(50, 50, 50); min-width: 100px; z-index: 1; }
+.Nav_Bar .Dropdown_Content a {display: block; text-align: left;}
+.Nav_Bar li.Dropdown:hover .Dropdown_Content {display: block;}
+
+    
+        
+        
+
+        
+        
+    </style>
+    <title>All About Rajnandini</title>
+</head>
+<body style="background-color: lightblue">
+    <div class="Nav_Bar">
+        <ul>
+            <li><a href="index.htm" class="Active">Home</a></li>
+            <li class="Dropdown">
+              <a href="https://www.searchenginejournal.com/alternative-search-engines/271409/">Search Engines</a>
+                <div class="Dropdown_Content">
+                    <a href="http://www.google.com">Google </a>
+                    <a href="http://www.bing.com">Bing </a>
+                </div>
+            </li>
+            <li class="Dropdown">
+                <a href="interests.htm">Other Pages</a>
+                  <div class="Dropdown_Content">
+                      <a href="interests.htm">All About Rajnandini</a>
+                      
+                  </div>
+              </li>
+          </ul>
+    </div>
+    <h1>All About <span> Rajnandini </span> </h1>
+    <hr>
+ <p> I am from Kolkata, India. <br> The best way to contact me is via <b> imessage </b> or <b> social media. </b> </p> 
+ <hr>
+ <p>I love travelling! </p>
+
+ <div>
+ <img src="IMG_5339.jpg"  alt="My friends and I" width=250 height= 300 class="center"  usemap="#image.map"/>
+ </div>
+
+ <map name="image.map">
+    <area shape="rect" target="_blank" alt="My friends " title="My friends " href="https://en.wikipedia.org/wiki/Friends" coords="0,0,90,120" />
+</map>
+
+ <p><a href="interests.htm" target="_blank" >My interests</a> </p>
+</body>
+</html> 
