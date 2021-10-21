@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 15</title>
+    <style>
+        
+    </style>
+    <script>
+        function move()
+        {
+        var top = Math.floor(1+Math.random()*501) + "px";
+        var left = Math.floor(1+Math.random()*501) + "px";
+        var text = new Array("Click Me", "Move Me", "Click Here", "Next", "Button");
+        document.getElementById("change").style.top=top
+        document.getElementById("change").style.left=left
+        document.getElementById("change").innerHTML=text[Math.floor(Math.random()*text.length)];
+
+        }
+    </script>
+</head>
+<body>
+    <button style="position: absolute; top: 0px; left: 0px;" id="change" onclick="move()">
+        Click Me
+    </button>
+    
+</body>
+</html>
