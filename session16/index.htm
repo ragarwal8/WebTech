@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ex1.css" />
+    <style>
+        body {background-image:url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);}
+        body {color: cadetblue;}
+        h1 {text-align: center;font-size: large;font-family: 'Times New Roman', Times, serif; border-style: double;border-color: pink; padding-top: 30px;padding-right: 10%;padding-bottom: 10px;padding-left: 15%;}
+        p {text-align: center;font-size: small;font-family: 'Times New Roman', Times, serif;}
+        span {color:black; font-style:italic;text-shadow: 5px 5px 3px  grey;}
+        
+        
+
+        
+        
+    </style>
+    <script> 
+    
+    function chgcolor()
+		{
+			var myH1 = document.getElementById("text");
+			if (myH1.style.color == "red") myH1.style.color="orange";
+         else if (myH1.style.color == "orange") myH1.style.color="yellow";
+         else if (myH1.style.color == "yellow") myH1.style.color="green";
+         else if (myH1.style.color == "green") myH1.style.color="blue";
+         else if (myH1.style.color == "blue") myH1.style.color="indigo";
+         else if (myH1.style.color == "indigo") myH1.style.color="violet";
+			else myH1.style.color="red";
+            setTimeout("chgcolor()",750);
+			
+		}
+
+    </script>
+    <title>All About Rajnandini</title>
+</head>
+<body onload="chgcolor()">
+    <h1 id="text" >All About <span> Rajnandini </span> </h1>
+    <hr>
+ <p> I am from Kolkata, India. <br> The best way to contact me is via <b> imessage </b> or <b> social media. </b> </p> 
+ <hr>
+ <p>I love travelling! </p>
+ 
+ <img src="IMG_5339.jpg"  alt="My friends and I" width=500 height= 600 /> 
+
+ <p><a href="interests.htm" target="_blank" >My interests</a> </p>
+</body>
+</html> 
