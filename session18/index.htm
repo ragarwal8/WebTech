@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing</title>
+    <script> 
+    function drawShape()
+    {
+         
+		var canvas = document.getElementById("tutorial");
+        var ctx = canvas.getContext('2d');
+        
+        ctx.beginPath();
+        ctx.fillStyle = "bisque";
+        ctx.arc(200, 50, 30, 0, Math.PI * 2, true);
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.strokeStyle = "black";
+        ctx.lineWidth = 3; 
+        ctx.arc(200, 50, 20, 0, Math.PI, false); 
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(200, 80);
+ctx.lineTo(200, 180);
+ctx.strokeStyle = "black";
+ctx.stroke();
+ 
+ctx.beginPath();
+ctx.strokeStyle = "black";
+ctx.moveTo(200, 180);
+ctx.lineTo(150, 280);
+ctx.moveTo(200, 180);
+ctx.lineTo(250, 280);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle = "black"
+ctx.moveTo(200, 80);
+ctx.lineTo(150, 130);
+ctx.moveTo(200, 80);
+ctx.lineTo(250, 130);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.fillStyle = "black"; 
+ctx.arc(190, 45, 3, 0, Math.PI * 2, true); 
+ctx.fill();
+ctx.arc(210, 45, 3, 0, Math.PI * 2, true); 
+ctx.fill();
+    }
+    </script> 
+</head>
+<body onload="drawShape()">
+    <canvas id="tutorial" width="1000" height="1000"></canvas>
+    
+</body>
+</html>
