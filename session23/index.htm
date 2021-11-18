@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session23</title>
+    <style> 
+    #bb {background-color: pink; padding: 3cm;text-align: center;}
+  #cc {background-color: purple;padding: 3cm;display: none;text-align: center;}
+  .chair {color: royalblue;text-align: center;}
+    
+    </style> 
+    <script src="https://code.jquery.com/jquery.min.js"> </script>
+    <script>
+     $(function(){
+       $("#bb").click(function(){
+         $("#cc").slideDown("slow")
+       })
+       $("#cc").hover(function(){$("#cc").text("This text changed!")
+     })
+     $(function(){
+       $("#aa").click(function()
+       {
+         $("#t1").append("Where are you from?");
+       })
+     })
+     $(function(){
+       $("#b4").click(function()
+       {
+         $("#t1").before("What is your favorite color?");
+       })
+       $(function(){
+         $("#b3").click(function()
+         {
+           $("#t4").removeClass("chair");
+         })
+         $(function(){
+           $("#img1").click(function()
+           {
+             $(this).delay("fast").animate({width: '250px'});
+         });
+       });
+     });
+
+    });
+  });
+
+     </script> 
+</head>
+<body>
+    <div id="bb">Click here </div>
+<div id="cc">Hello there!</div>
+<p id="t1"> How are you doing today?  </p>
+<button id="aa" > Append text </button>
+<button id="b4"> Before </button>
+<p class="chair" id="t4"> <b>  This text is blue </b> </p>
+<button id="b3"> Click here to remove class features </button>
+<p> Click on image below for animation</p>
+<image id="img1" src="https://m.media-amazon.com/images/I/41CyuoxrPvL._AC_.jpg" width="150px"> </image>
+
+
+
+
+
+</body>
+</html>
