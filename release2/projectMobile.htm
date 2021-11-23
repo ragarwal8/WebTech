@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page.It provides information on the four genres of music and the origin of music.">
+    <meta name="keywords" content="Connection to music, origin of music, popular music, art music, religious music, folk music">
+    <meta name="author" content="Rajnandini Agarwal">
+    <link rel="stylesheet" type="text/css" href="2.css" />
+    <!--Deleted sub-pages:Soul Music and R&B and Rock music.(info was incomplete)-->
+    <!--Table is on the popular music page with the names of sub-genres of popular music-->
+    <!--List is on the credits page-->
+    <!--hot spot image is present on pop music page-->
+    <!--Videos are present on art music page and others as well-->
+    <!--Music is on latin music page-->
+
+    <title>Home page</title>  <style>
+        body {font-family: "Lato", sans-serif; background-image: url(records.jpg);background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
+@font-face {
+            font-family:dahlia;
+            src: url(MettaDahlia-EaEG4.ttf);}
+h1 {text-align: center;font-family: dahlia;font-size: x-large;}
+h2 {text-align: center;font-family: dahlia;font-size: larger;}
+h3 {text-align: center;font-family: dahlia;font-size: larger;}
+
+  .no {text-align: justify;background-color:rgba(39, 158, 128, 0.774);color: white; margin-top: 1cm;margin-bottom: 1cm;border: black 31.25% solid;}
+  .a1 {text-align: center;}
+  .b1 {text-align: left;}
+  .c1 {text-align: left;}
+  .c1 {text-align: center;}
+  * {box-sizing: border-box;}
+
+.column {width:50%; padding: 31.25%;}
+.row::after {content: "";clear: both;display: table;}
+.co {width: 33.33%; padding: 62.5%;}
+.a1::after {content: normal;clear: both;display:flex;}
+div.Navigation_Bar {top: 0%; text-align:center; width: 100%;}
+div.Navigation_Bar ul {list-style-type: none; margin: 0; padding: 0; overflow: auto; background-color: black; text-align: center; display: inline-block;}
+
+div.Navigation_Bar li a {display: inline-block; color: rgb(22, 228, 166); text-align: center; padding: 93.75%; text-decoration: none; min-width: 625%;}
+div.Navigation_Bar a.Active {background-color: rgb(135, 205, 235);}
+div.Navigation_Bar li a:hover, .Navigation_Bar a.Active:hover {background-color: rgba(209, 104, 72, 0.685); color: rgb(255, 255, 255);}
+div.Navigation_Bar .DropdownBox {display: none; background-color: black; position: absolute; min-width: 625%; z-index: 1; }
+div.Navigation_Bar .DropdownBox a {display: block; text-align: center;}
+div.Navigation_Bar li.DropdownList:hover .DropdownBox {display: block;}
+.no {margin-left: 2cm;margin-right: 2cm;padding: 1cm;}
+* {box-sizing: border-box;}
+.column { width: 33.33%;padding: 31.25%;}
+.row::after {content: "";clear: both;display: table;}
+#cc, #dd, #po, #g5, #g6{
+  padding: 312.5%;
+  display: none;
+}
+#bb, #op, #aa, #f2, #f3{
+  margin-left: 2cm;
+  margin-right: 2cm;
+  padding: 62.5%;
+  text-align: center;
+  background-color: rgba(39, 158, 128, 0.774);
+  border-left: 31.25% solid rgb(6, 13, 19);
+border-bottom: 31.25% solid rgb(7, 10, 12);
+border-top:31.25% solid rgb(4, 5, 5) ;
+border-right: 31.25% solid rgb(9, 11, 12);
+color: white;}
+
+  #cc, #dd, #po, #g5, #g6 {margin-left: 2cm;
+  margin-right: 2cm;
+  padding: 62.5%;
+  text-align: center;
+  background-color: rgba(39, 158, 128, 0.774);
+color: white;
+ border: 43.75% solid black;}
+ 
+
+ 
+
+
+
+
+    </style>
+    <script src="https://code.jquery.com/jquery.min.js"> </script>
+    <script> 
+    
+    $(function(){
+       $("#bb").hover(function(){
+         $("#cc").slideDown("slow")
+       });
+       $("#aa").hover(function(){
+         $("#dd").slideDown("slow")
+
+      });
+      $("#op").hover(function(){
+         $("#po").slideDown("slow")
+
+    });
+    $("#f2").hover(function(){
+         $("#g5").slideDown("slow")
+  });
+  $("#f3").hover(function(){
+         $("#g6").slideDown("slow")
+  });
+});
+   
+  
+    </script> 
+</head>
+<body>
+  <h1 >  <i> <span style="background-color:rgb(2, 3, 3);font-size: xx-large;color: rgb(22, 228, 166)"> &nbsp; Music: An Outburst Of The Soul  &nbsp;</i> </span> </h1>
+  <div class="Navigation_Bar" >
+    <ul>
+    <li>
+    <a href="index.htm" class="active"> Home </a>
+    </li>
+    <li class="DropdownList">
+    <a href="popularmusic.htm" class="active"> Popular Music </a>
+    <div class="DropdownBox">
+      <a href="countrymusic.htm">Country Music</a>
+                    <a href="electronic.htm"> Electronic Music</a>
+                  <a href="hiphop.htm">Hip hop Music</a>
+                    <a href="jazz.htm">Jazz Music  </a>
+                  <a href="pop.htm"> Pop Music </a>
+                  <a href="latin.htm"> Latin Music </a>
+          
+    </div>   
+    </li>
+    <li class="DropdownList">
+      <li>
+        <a href="artmusic.htm" class="active"> Art Music </a>
+        </li>
+        <li>
+          <a href="folkmusic.htm" class="active"> Folk Music </a>
+          </li>
+          <li>
+            <a href="contactus.htm">Contact Us</a>
+            </li>
+            <li>
+                <a href="aboutme.htm">About Me</a>
+                </li>
+                <li>
+                    <a href="credits.htm">Credits</a>
+                    </li>
+        
+      
+      </div>
+    </li>
+   
+    </ul>
+    </div>
+    
+   
+ 
+   
+   
+
+          
+          <div class="no">
+            <img src="https://i0.wp.com/liveforlivemusic.com/wp-content/uploads/2016/02/musicbrain.jpg?resize=610%2C390&ssl=1" alt="musical notes" style="width: 1562.5%;height: 1250%;padding: 0.4cm;"> 
+
+             Music is soothing for the soul. Throught the elements of melody, harmony, rhythm, and timbre, music can have a healing effect on all of us. It is one of the universal cultural aspects of all human societies. Music is innately relevant to mankind as a race because of its deep links with the brain. It is what keeps us going. It influences our thoughts and emotions, and its impact on our brains gives music a sense of unification that few other art forms can match. <br> <br> Music is composed and performed for many purposes, ranging from aesthetic pleasure, religious or ceremonial purposes, or as an entertainment product for the marketplace. Music is a language all of us can speak. <br> <br> How music has evolved with us over time is a huge aspect of our relationship with it. We can find examples of musical instruments as far back as history allows us to go, as well as suggestions that people may have sang to each other to communicate before they acquired language. </div>
+        
+          
+
+          <h1>  <span style="background-color:rgb(2, 3, 3);font-size: xx-large;color: rgb(22, 228, 166)"> &nbsp; Origin of Music &nbsp; </span> </h1>
+         
+          <p class="no"> <img src="https://www.arapahoe-phil.org/wp-content/uploads/2020/10/Mesopotamia.jpg" alt="origin of music" style="height: 1406.25%; padding: 0.4cm;"> So, when did our predecessors start playing music? When it comes to singing, pitch control is crucial. Scientists looked at early apes' preserved skulls and jaws to see if they could vocalise and manipulate pitch. The common ancestor of Neanderthals and modern humans had the vocal anatomy to "sing" like us about a million years ago, but it is hard to know if they did. <br> <br> Rhythm is another crucial aspect of music. By clapping their hands, our forefathers may have produced rhythmic music. This could be traced back to the earliest musical instruments, when someone discovered that slapping stones or sticks together does not cause as much pain in the hands. Many of these instruments are unlikely to have survived because they were composed of soft materials like wood or reeds. Bone pipes are the only things that have survived. Between 39,000 and 43,000 years old, some of the earliest ever discovered are constructed from swan and vulture wing bones. Other ancient instruments have been discovered in unexpected locations. People may have struck stalactites, or "rock gongs," in caves, for example. <br> <br> So, we know music dates back to prehistoric times, and since then, it has evolved into several genres and sub-genres which we will explore here. 
+          </p> 
+          <hr> 
+          <h1>  <span style="background-color:rgb(2, 3, 3);font-size: xx-large;color: rgb(22, 228, 166) "> &nbsp; The Genres of Music &nbsp; </span> </h1>
+          <div id="bb">  What is a music genre?  </div>
+<div id="cc">  A music genre is a conventional category that identifies some pieces of music as belonging to a shared tradition or set of conventions. Music can be divided into genres in varying ways, such as popular music and art music, or religious music and secular music. </div> 
+<br> <br> 
+
+<div id="aa">  What is a Art Music?  </div>
+<div id="dd">   Art Music, alternatively called classical music, cultivated music, serious music, and canonic music, is music considered to be of high aesthetic value. It typically implies advanced structural and theoretical considerations or a written musical tradition. In this context, the terms "serious" or "cultivated" are frequently used to present a contrast with ordinary, everyday music, popular and folk music, also called "vernacular music".  <br> <br> <br> 
+  <div class="row">
+    <div class="column">
+      <img src="https://cdn.goconqr.com/uploads/media/image/9588883/94cb2c4d-ba2f-49fb-a489-50a7658b1a90.jpg" alt="art" style="height:6cm;width:100%">
+    </div>
+    <div class="column">
+      <img src="https://www.euroweeklynews.com/wp-content/uploads/2014/05/e282d6f05a87e116f35b6fa360326e38-1200x900.jpg" alt="art" style="height:6cm;width:100%;">
+    </div>
+    <div class="column">
+      <img src="https://limelightmagazine.com.au/wp-content/uploads/2019/06/0f14b1b9-australian-chamber-orchestra.jpg" alt="art" style="height:6cm;width:100%;">
+    </div>
+  </div> 
+</div> 
+<br> <br> 
+
+<div id="op">  What is a Popular Music?  </div>
+<div id="po">  Popular music  is music with wide appeal that is typically distributed to large audiences through the music industry. These forms and styles can be enjoyed and performed by people with little or no musical training. It stands in contrast to both art music and traditional or "folk" music.Although popular music sometimes is known as "pop music", the two terms are not interchangeable.Popular music songs and pieces typically have easily singable melodies. The song structure of popular music commonly involves repetition of sections, with the verse and chorus or refrain repeating throughout the song and the bridge providing a contrasting and transitional section within a piece.Popular Music can be further subdivded into the following sub-genres: Country music, Electronic music, Funk, Hip hop music, Jazz, Latin music, Pop music, Punk, Reggae, Rock music, Metal music, Soul music and R&B and Polka. <br> <br>   <div class="row">
+  <div class="column">
+    <img src="https://miro.medium.com/max/1400/1*a3aaHi4_0l98T5e--oC7jg.jpeg" alt="artists" style="width:100%;height: 6.8cm;">
+  </div>
+  <div class="column">
+    <img src="https://assets.website-files.com/5ec80db74496a04697e33a74/5faeeb19a35a105dc0e512c3_image-1.jpg" alt="pop" style="width:100%;">
+  </div>
+  <div class="column">
+    <img src="https://www.etxepare.eus/media/uploads/noticias/galeria/webgunerako16.jpg" alt="concert" style="width:100%;">
+  </div>
+</div> 
+</div> 
+<br> <br>
+
+<div id="f2">  What is Folk Music?  </div>
+<div id="g5">  Folk music is a music genre that includes traditional folk music and the contemporary genre that evolved from the former during the 20th-century folk revival. Some types of folk music may be called world music. Traditional folk music has been defined in several ways: as music transmitted orally, music with unknown composers, music that is played on traditional instruments, music about cultural or national identity, music that changes between generations (folk process), music associated with a people's folklore or music performed by custom over a long period of time. It has been contrasted with commercial and classical styles. The term originated in the 19th century, but folk music extends beyond that.   <br> <br> <br> 
+
+  <div class="row">
+   <div class="column">
+     <img src="https://www.liveabout.com/thmb/GTjEPzMYKvwiEcU25JZeonzKYwA=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/TheAlmanacSingers-5902520f3df78c5456c436a1.jpg" alt="art" style="width:100%;height: 6.8cm;">
+   </div>
+   <div class="column">
+     <img src="https://cdn.britannica.com/89/198289-004-74FAF303.jpg" alt="art" style="width:100%;height: 6.8cm;">
+   </div>
+   <div class="column">
+     <img src="https://cdn.history101.com/wp-content/uploads/2019/12/43734-1576295909172-1.jpg" alt="art" style="width:100%;height: 6.8cm;">
+   </div>
+ </div> 
+ 
+
+
+ </div>
+
+ <br> <br>
+
+<div id="f3">What is Religious Music?   </div>
+<div id="g6">  Religious music , also called sacred music, is a type of music that is performed or composed for religious use or through religious influence. It may overlap with ritual music, which is music, sacred or not, performed or composed for or as ritual. There are almost as many different types of religious music as there are religions. These include: Buddhist music, Christian music, Hindu and Islamic Music, Jewish music, Neopagan music, Rastafarian music, Shamanic music, Shintō music, Sikh music, Sinism (Korean shamanism) music, Taoist music and Zoroastrian music.  <br> <br> <br> 
+
+  <div class="row">
+    <div class="column">
+      <img src="https://static01.nyt.com/images/2007/09/23/arts/holl.jpg" alt="art" style="width:100%;height: 6cm;">
+    </div>
+    <div class="column">
+      <img src="https://media.istockphoto.com/photos/saint-patrick-cathedral-in-dublin-ireland-picture-id1256537506?k=20&m=1256537506&s=612x612&w=0&h=XYFX4fqt2Y0F5_1PbvlA6BNnNS0UooMey4nZqGEh5ic=" alt="art" style="width:100%;">
+    </div>
+    <div class="column">
+      <img src="https://2104310a1da50059d9c5-d1823d6f516b5299e7df5375e9cf45d2.ssl.cf2.rackcdn.com/nmbx/2016/01/chorus-women.jpg" alt="art" style="width:100%;">
+    </div>
+  </div> 
+
+
+
+ </div>
+
+
+        
+                 
+
+                
+        
+          
+
+
+           
+
+
+         
+
+       
+
+        
+      
+
+   </div>               
+</body>
+</html>
