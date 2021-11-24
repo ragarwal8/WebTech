@@ -1,0 +1,7 @@
+body {
+  background-image: url("musical.jpg");
+height: 500px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;}

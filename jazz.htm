@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Jazz music. It gives information on what it is and who the top 10 artists of this genre are.">
+    <meta name="keywords" content="jazz, music, Miles Davis ,Louis Armstrong ,Count Basie, Charles Mingus, Ornette Coleman">
+    <meta name="author" content="Rajnandini Agarwal">
+    <title>Jazz Music</title>
+    <style> 
+     @font-face {
+            font-family:jazz;
+            src: url(riesling.ttf);}
+            h1{font-family: jazz;font-size: 3cm;text-align: center;}
+            body {background-image: url(Untitled\ design\ \(4\).jpg);}
+            div.Navigation_Bar {top: 0px; text-align:center; width: 100%;}
+div.Navigation_Bar ul {list-style-type: none; margin: 0; padding: 0; overflow: auto; background-color: black; text-align: center; display: inline-block;}
+div.Navigation_Bar li {float: left;}
+div.Navigation_Bar li a {display: inline-block; color: rgb(30, 167, 185); text-align: center; padding: 15px; text-decoration: none; min-width: 100px;}
+div.Navigation_Bar a.Active {background-color: rgb(135, 205, 235);}
+div.Navigation_Bar li a:hover, .Navigation_Bar a.Active:hover {background-color: rgba(168, 111, 221, 0.63); color: rgb(255, 255, 255);}
+div.Navigation_Bar .DropdownBox {display: none; background-color: black; position: absolute; min-width: 100px; z-index: 1; }
+div.Navigation_Bar .DropdownBox a {display: block; text-align: center;}
+div.Navigation_Bar li.DropdownList:hover .DropdownBox {display: block;}
+.folk {background-color: rgba(39, 43, 44, 0.63);margin-left: 150px;margin-right: 150px;padding: 50px;font: larger;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: justify; float: right;margin-top: 50px;color: white;}
+.music {background-color: rgba(39, 43, 44, 0.63);margin-left: 150px;margin-right: 150px;padding: 50px;font: larger;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: justify; float: right;margin-top: 50px;color: white;}
+* {box-sizing: border-box;}
+.column {float: left; width: 33.33%;padding: 5px;}
+.row::after {content: "";clear: both;display: table;}
+.hu {background-color: rgba(33, 37, 37, 0.74);margin-left: 150px;margin-right: 150px;padding: 50px;font: larger;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: justify; float: right;color: white;}
+#hii2 {display: none;}
+    </style> 
+    
+   <script src="https://code.jquery.com/jquery.min.js"> </script>
+   <script> 
+   $(function(){
+     $("#hii").hover(function()
+     {$("#hii2").fadeIn("slow")});
+   });
+   </script>
+</head>
+<body>
+    <h1 style="margin-bottom: -3px;"> JAZZ MUSIC </h1>
+    <div class="Navigation_Bar" >
+      <ul>
+      <li>
+      <a href="index.htm" class="active"> Home </a>
+      </li>
+      <li class="DropdownList">
+      <a href="popularmusic.htm" class="active"> Popular Music </a>
+      <div class="DropdownBox">
+        <a href="countrymusic.htm">Country Music</a>
+                      <a href="electronic.htm"> Electronic Music</a>
+                    <a href="hiphop.htm">Hip hop Music</a>
+                      <a href="jazz.htm">Jazz Music  </a>
+                    <a href="pop.htm"> Pop Music </a>
+                    <a href="latin.htm"> Latin Music </a>
+            
+      </div>   
+      </li>
+      <li class="DropdownList">
+        <li>
+          <a href="artmusic.htm" class="active"> Art Music </a>
+          </li>
+          <li>
+            <a href="folkmusic.htm" class="active"> Folk Music </a>
+            </li>
+            <li>
+              <a href="contactus.htm">Contact Us</a>
+              </li>
+              <li>
+                  <a href="aboutme.htm">About Me</a>
+                  </li>
+                  <li>
+                      <a href="credits.htm">Credits</a>
+                      </li>
+          
+         </ul> </div> 
+        <h1 style="font-size:1cm;color: rgb(11, 14, 13)" id="hii"> What is Jazz music?  </h1>
+        <div class="hu" style="margin-bottom: 14px;" id="hii2"> 
+            <b> Jazz is a music genre that originated in the African-American communities of New Orleans, Louisiana, United States, in the late 19th and early 20th centuries, with its roots in blues and ragtime. Since the 1920s Jazz Age, it has been recognized as a major form of musical expression in traditional and popular music, linked by the common bonds of African-American and European-American musical parentage. Jazz is characterized by swing and blue notes, complex chords, call and response vocals, polyrhythms and improvisation. Jazz has roots in West African cultural and musical expression, and in African-American music traditions.<br> <br> <img src="https://www.cmuse.org/wp-content/uploads/2019/05/classical-vs-jazz-music.jpg" alt="jazz" style="float: right;width: 8cm;padding-left: 0.3cm;height: 6cm;padding-bottom: 0.3cm;"> Any attempt to arrive at a precise, all-encompassing definition of jazz is probably futile. Jazz has been, from its very beginnings at the turn of the 20th century, a constantly evolving, expanding, changing music, passing through several distinctive phases of development; a definition that might apply to one phase—for instance, to New Orleans style or swing—becomes inappropriate when applied to another segment of its history, say, to free jazz. Early attempts to define jazz as a music whose chief characteristic was improvisation, for example, turned out to be too restrictive and largely untrue, since composition, arrangement, and ensemble have also been essential components of jazz for most of its history. Similarly, syncopation and swing, often considered essential and unique to jazz, are in fact lacking in much authentic jazz, whether of the 1920s or of later decades. Again, the long-held notion that swing could not occur without syncopation was roundly disproved when trumpeters Louis Armstrong and Bunny Berigan (among others) frequently generated enormous swing while playing repeated, unsyncopated quarter notes.</b>
+        </div>
+        <br> 
+        <h1 style="margin-bottom: -3px;">  The Top 10 Artists of Jazz Music </h1>
+        <div class="folk" style="margin-top: 0ch;"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+             <b>  1. Miles Davis </b> </p><br> <br> 
+             <div class="row">
+              <div class="column">
+                <img src="https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgxMjQ0NDg4NTkxNjE1MDY0/gettyimages-73909081.jpg" alt="Miles Davis" style="width:100%;height: 5cm;">
+              </div>
+              <div class="column">
+                <img src="https://www.udiscovermusic.com/wp-content/uploads/2020/11/Miles-Davis-GettyImages-84843312.jpg" alt="Miles Davis" style="width:100%;height: 5cm;">
+              </div>
+              <div class="column">
+                <img src="https://i.guim.co.uk/img/media/1b49bef060b31d5ec2d7b3d2a0500e412cb5d312/0_64_3713_2228/master/3713.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=ad775f123dbfad6da02b8c37adbc0996" alt="Miles Davis" style="width:100%;height: 5cm;">
+              </div>
+            </div> 
+        
+             <br> Miles Dewey Davis III (May 26, 1926 – September 28, 1991) was an American trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. Davis adopted a variety of musical directions in a five-decade career that kept him at the forefront of many major stylistic developments in jazz. <br> <br>Critics were often unreceptive but the decade garnered Davis his highest level of commercial recognition. He performed sold-out concerts worldwide, while branching out into visual arts, film, and television work, before his death in 1991 from the combined effects of a stroke, pneumonia and respiratory failure. In 2006, Davis was inducted into the Rock and Roll Hall of Fame, which recognized him as "one of the key figures in the history of jazz".[10] Rolling Stone described him as "the most revered jazz trumpeter of all time, not to mention one of the most important musicians of the 20th century," while Gerald Early called him inarguably one of the most influential and innovative musicians of that period<br><br> Click <a href="https://open.spotify.com/playlist/4KcHcB0kG77SMypTh0UWCx?si=c248750e4fe044cd" target="_blank"> here </a> for some of His best work. <br> <br>
+
+            
+        </div>
+      
+        <div class="music"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+          <b>  2. Louis Armstrong  </b> </p> <br> <br> 
+          <div class="row">
+           <div class="column">
+             <img src="https://www.nydailynews.com/resizer/fETLXveKk3SpqsDG8gEiB8ShbPw=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/ZK3UEC6WXOMXKIVMOXYAE6XTOU.jpg" alt="Louis Armstrong" style="width: 100%;height: 5cm;">
+           </div>
+           <div class="column">
+             <img src="https://media.npr.org/assets/img/2019/06/14/gettyimages-1020028326_wide-6d29a5383c3b7d958466e35c34a26d51d7351d90.jpg" alt=" Louis Armstrong " style="width:100%;height: 5cm;">
+           </div>
+           <div class="column">
+             <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2020_17/3315466/200420-louis-armstrong-cs-1251p.jpg" alt=" Louis Armstrong " style="width:100%;">
+           </div>
+         </div> 
+     
+         <br> After growing up in extreme poverty in New Orleans, jazz trumpeter Louis Armstrong broke down racial barriers and became a hugely famous mainstream celebrity at a time when this was unusual for African Americans.
+
+         He was arguably the first major jazz star, and – with his rhythmically sophisticated, operatic style – remains the greatest jazz musician of all time according to many.
+         
+         Armstrong helped popularise scat singing, and his gravelly voice was later heard on pop hits like  'What a Wonderful World'.<br> <br>But, at least amongst jazz musicians, he is most remembered for his brilliant trumpet playing; particularly for the 1920s recordings with his Hot 5s and Hot 7s, which helped to change jazz‘s focus from collective improvisation to individual soloists.<br> <br> Click <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO0Co11u?si=664c861b3a0f495d" target="_blank"> here </a> for some of his best work. <br> <br>
+
+         
+     </div>
+     <div class="folk"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+      <b>  3. Count Basie  </b> </p> <br> <br> 
+      <div class="row">
+       <div class="column">
+         <img src="https://newyorkjazzworkshop.com/wp-content/uploads/2013/11/count-basie.jpg" alt="count basie " style="width:100%;height:4cm;">
+       </div>
+       <div class="column">
+         <img src="https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgwMzIwODEyMzg4MDY2NDU0/gettyimages-517389008-copy.jpg" alt="count basie " style="width:100%;height: 4cm;">
+       </div>
+       <div class="column">
+         <img src="https://assets.jazziz.com/2017/05/CountBasie.jpg" alt="count basie" style="width:100%;">
+       </div>
+     </div> 
+ 
+      <br> William James "Count" Basie ( August 21, 1904 – April 26, 1984)was an American jazz pianist, organist, bandleader, and composer. In 1935, he formed the Count Basie Orchestra, and in 1936 took them to Chicago for a long engagement and their first recording. He led the group for almost 50 years, creating innovations like the use of two "split" tenor saxophones, emphasizing the rhythm section, riffing with a big band, using arrangers to broaden their sound, and others. <br> <br>  Many musicians came to prominence under his direction, including the tenor saxophonists Lester Young and Herschel Evans, the guitarist Freddie Green, trumpeters Buck Clayton and Harry "Sweets" Edison, plunger trombonist Al Grey, and singers Jimmy Rushing, Helen Humes, Thelma Carpenter, and Joe Williams.<br><br> Click <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO1jYxGw?si=434eb3a972d84536" target="_blank"> here </a> for some of his best work. <br> <br>
+
+      
+ </div>
+ <div class="music"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+  <b>  4. Charles Mingus </b> </p> <br> <br> 
+  <div class="row">
+   <div class="column">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Charles_Mingus_1976_cropped.jpg" alt="Charles Mingus" style="width: 100%;height: 9cm;">
+   </div>
+   <div class="column">
+     <img src="https://media.newyorker.com/photos/5aa83ea93d90e51825159557/master/pass/710529_ra497.jpg" alt="Charles Mingus" style="width:100%;">
+   </div>
+   <div class="column">
+     <img src="https://images.squarespace-cdn.com/content/v1/5d0943cc1685450001db8e42/1567634200954-HS7AJL1JJGXQPGW5W7QU/00000021.jpg" alt="Charles Mingus" style="width:100%;height: 9cm;">
+   </div>
+ </div> 
+
+ <br> Charles Mingus Jr. (April 22, 1922 – January 5, 1979) was an American jazz double bassist, pianist, composer and bandleader. A major proponent of collective improvisation, he is considered to be one of the greatest jazz musicians and composers in history, with a career spanning three decades and collaborations with other jazz musicians such as Louis Armstrong, Duke Ellington, Charlie Parker, Dizzy Gillespie, and Herbie Hancock. <br> <br> Mingus's compositions continue to be played by contemporary musicians ranging from the repertory bands Mingus Big Band, Mingus Dynasty, and Mingus Orchestra, to the high school students who play the charts and compete in the Charles Mingus High School Competition. In 1993, the Library of Congress acquired Mingus's collected papers—including scores, sound recordings, correspondence and photos—in what they described as "the most important acquisition of a manuscript collection relating to jazz in the Library's history".<br> <br> Click <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO15Oxjn?si=1300555b4f5349c9" target="_blank"> here </a> for some of his best work. <br> <br>
+
+
+</div>
+<div class="folk"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+  <b>  5. Thelonious Monk </b> </p> <br> <br> 
+  <div class="row">
+   
+   <div class="column">
+     <img src="https://www.udiscovermusic.com/wp-content/uploads/2020/08/Thelonious-Monk-GettyImages-75957791.jpg" alt="Thelonious Monk" style="width:100%;height: 4.5cm;">
+   </div>
+   <div class="column">
+    <img src="https://media.npr.org/assets/img/2017/10/10/gettyimages-96410743_custom-b7c0b41267ca5a293255ddaf82638b0c85661b68.jpg" alt="Thelonious Monk" style="width: 100%;height: 4.5cm;">
+  </div>
+   <div class="column">
+     <img src="https://media.newyorker.com/photos/5f60eeea24393cd94f4e85de/16:9/w_2072,h_1165,c_limit/Brody-TheloniousMonkPaloAlto.jpg" alt="Thelonious Monk" style="width:100%;height: 4.5cm;">
+   </div>
+ </div> 
+
+ <br>Thelonious Sphere Monk ( October 10, 1917 – February 17, 1982) was an American jazz pianist and composer. He had a unique improvisational style and made numerous contributions to the standard jazz repertoire, including "'Round Midnight", "Blue Monk", "Straight, No Chaser", "Ruby, My Dear", "In Walked Bud", and "Well, You Needn't". Monk is the second-most-recorded jazz composer after Duke Ellington.<br> <br>  Monk was renowned for a distinct look which included suits, hats, and sunglasses. He was also noted for an idiosyncratic habit during performances: while other musicians continued playing, Monk would stop, stand up, and dance for a few moments before returning to the piano.
+
+ Monk is one of five jazz musicians to have been featured on the cover of Time magazine (the others being Louis Armstrong, Dave Brubeck, Duke Ellington and Wynton Marsalis). <br> <br> Click <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2PODB2?si=f5815ea7b3794e29" target="_blank"> here </a> for some of his best work. <br> <br>
+
+ 
+</div>
+<div class="music"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+  <b>  6. Ella Fitzgerald </b> </p> <br> <br> 
+  <div class="row">
+   <div class="column">
+     <img src="https://www.biography.com/.image/t_share/MTgwNzg1MDEwODQyODA1MzM2/gettyimages-74271347.jpg" alt="Ella Fitzgerald" style="width: 100%;height: 5cm;">
+   </div>
+   <div class="column">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg/1200px-Ella_Fitzgerald_%28Gottlieb_02871%29.jpg" alt="Ella Fitzgerald" style="width:100%;height: 5cm;">
+   </div>
+   <div class="column">
+     <img src="https://static01.nyt.com/images/2020/06/25/arts/25ellafitzgerald-art/25ellafitzgerald-art-mobileMasterAt3x.jpg" alt="Ella Fitzgerald" style="width:100%;height: 5cm;">
+   </div>
+ </div> 
+
+ <br> Ella Jane Fitzgerald (April 25, 1917 – June 15, 1996) was an American jazz singer, sometimes referred to as the First Lady of Song, Queen of Jazz, and Lady Ella. She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, and a "horn-like" improvisational ability, particularly in her scat singing. <br> <br>While Fitzgerald appeared in movies and as a guest on popular television shows in the second half of the twentieth century, her musical collaborations with Louis Armstrong, Duke Ellington, and The Ink Spots were some of her most notable acts outside of her solo career. These partnerships produced some of her best-known songs such as "Dream a Little Dream of Me", "Cheek to Cheek", "Into Each Life Some Rain Must Fall", and "It Don't Mean a Thing (If It Ain't Got That Swing)".
+
+ In 1993, after a career of nearly 60 years, she gave her last public performance. Three years later, she died at the age of 79 after years of declining health. Her accolades included fourteen Grammy Awards, the National Medal of Arts, and the Presidential Medal of Freedom.<br> <br> Click <a href="https://open.spotify.com/playlist/37i9dQZF1DXciLbPVkluM0?si=63490b9212914578" target="_blank"> here </a> for some of her best work.  <br> <br>
+
+ 
+</div>
+<div class="folk"><p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+  <b> 7. Charlie Parker </b> </p> <br> <br> 
+  <div class="row">
+   <div class="column">
+     <img src="https://media.newyorker.com/photos/5f4972277f07707d656e0c0a/4:3/w_1679,h_1259,c_limit/Brody-CharlieParker.jpg" alt="Charlie Parker" style="width: 100%;height: 5.4cm;">
+   </div>
+   <div class="column">
+     <img src="https://www.udiscovermusic.com/wp-content/uploads/2019/03/Charlie-Parker-Bird-web-optimised-1000.jpg" alt="Charlie Parker" style="width:100%;height: 5.4cm;">
+   </div>
+   <div class="column">
+     <img src="https://downbeat.com/images/news/_full/CharlieParker_WilliamGottlieb_WEB.jpg" alt="Charlie Parker" style="width:100%;height: 5.4cm;">
+   </div>
+ </div> 
+
+ <br>Charles Parker Jr. (August 29, 1920 – March 12, 1955), nicknamed "Bird" and "Yardbird," was an American jazz saxophonist, band leader and composer. Parker was a highly influential soloist and leading figure in the development of bebop, a form of jazz characterized by fast tempos, virtuosic technique, and advanced harmonies. Parker was a blazingly fast virtuoso and introduced revolutionary harmonic ideas into jazz, including rapid passing chords, new variants of altered chords, and chord substitutions. Primarily a player of the alto saxophone, Parker's tone ranged from clean and penetrating to sweet and somber. <br> <br>Parker acquired the nickname "Yardbird" early in his career on the road with Jay McShann. This, and the shortened form "Bird," continued to be used for the rest of his life, inspiring the titles of a number of Parker compositions, such as "Yardbird Suite," "Ornithology," "Bird Gets the Worm," and "Bird of Paradise." Parker was an icon for the hipster subculture and later the Beat Generation, personifying the jazz musician as an uncompromising artist and intellectual rather than just an entertainer.<br> <br> Click <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2TXsYJ?si=63f8671c858d448d" target="_blank"> here </a> for some of his best work. <br> <br>
+
+ 
+</div>
+<div class="music"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+  <b> 8.Duke Ellington </b> </p> <br> <br> 
+  <div class="row">
+   <div class="column">
+     <img src="https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgwMzIxNTIzMjA1MTU0NjY4/gettyimages-517359002.jpg" alt="" style="width: 100%;height: 5cm;">
+   </div>
+   <div class="column">
+     <img src="https://music.si.edu/sites/default/files/pictures/ellington_-_from_the_scurlock_photographic_collection_nmah_-_618psduke.jpg" alt="" style="width:100%;height: 5cm;">
+   </div>
+   <div class="column">
+     <img src="https://www.udiscovermusic.com/wp-content/uploads/2020/06/Duke-Ellington-Quiz-GettyImages-1163996910.jpg" alt="" style="width:100%;height: 5cm;">
+   </div>
+ </div> 
+
+ <br>Edward Kennedy "Duke" Ellington (April 29, 1899 – May 24, 1974) was an American composer, pianist, and leader of a jazz orchestra from 1923 through the rest of his life.
+
+ Born in Washington, D.C., Ellington was based in New York City from the mid-1920s and gained a national profile through his orchestra's appearances at the Cotton Club in Harlem. In the 1930s, his orchestra toured Europe several times.
+ 
+ Some of the jazz musicians who were members of Ellington's orchestra, such as saxophonist Johnny Hodges, are considered among the best players in the idiom. Ellington melded them into the best regarded orchestral unit in the history of jazz. Some members stayed with the orchestra for several decades. <br> <br> Although a pivotal figure in the history of jazz, in the opinion of Gunther Schuller and Barry Kernfeld, "the most significant composer of the genre", Ellington himself embraced the phrase "beyond category", considering it a liberating principle, and referring to his music as part of the more general category of American Music. Ellington was known for his inventive use of the orchestra, or big band, as well as for his eloquence and charisma. He was awarded a posthumous Pulitzer Prize Special Award for music in 1999.<br> <br> Click <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2JuuJ2?si=59758b5006894ff8" target="_blank"> here </a> for some of his best work.  <br> <br>
+
+ 
+</div>
+<div class="folk"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+  <b> 9. Chet Baker</b> </p> <br> <br> 
+  <div class="row">
+   <div class="column">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Chet_Baker_%281929%E2%80%931988%29.jpg" alt="Chet Baker" style="width: 100%;height: 9cm;">
+   </div>
+   <div class="column">
+     <img src="https://img.discogs.com/Sj7hmIpSHshzRsUiB5zecJ4x0LM=/600x852/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-31617-1609785447-8608.jpeg.jpg" alt="Chet Baker" style="width:100%;height: 9cm;">
+   </div>
+   <div class="column">
+     <img src="https://dgwh4hty77sxy.cloudfront.net/c/10259-medium_zoomcrop/chet-baker-albums.jpg" alt="Chet Baker" style="width:100%;height: 9cm;">
+   </div>
+ </div> 
+
+ <br> Chesney Henry "Chet" Baker Jr. (December 23, 1929 – May 13, 1988) was an American jazz trumpeter and vocalist. He is known for major innovations within the cool jazz subgenre leading him to be nicknamed the "prince of cool".
+
+ Baker earned much attention and critical praise through the 1950s, particularly for albums featuring his vocals (Chet Baker Sings (1954), It Could Happen to You (1958)). Jazz historian Dave Gelly described the promise of Baker's early career as "James Dean, Sinatra, and Bix, rolled into one".[4] His well-publicized drug habit also drove his notoriety and fame. Baker was in and out of jail frequently before enjoying a career resurgence in the late 1970s and 1980s<br> <br>  Baker formed a quartet with a rotation that included pianist Russ Freeman, bassists Bob Whitlock, Carson Smith, Joe Mondragon, and Jimmy Bond, and drummers Larry Bunker, Bob Neel, and Shelly Manne. Baker's quartet released popular albums between 1953 and 1956. Baker won reader's polls at Metronome and DownBeat magazines, beating trumpeters Miles Davis and Clifford Brown. In 1954, readers named Baker the top jazz vocalist. In 1956, Pacific Jazz Records released Chet Baker Sings, an album that increased his visibility and drew criticism. Nevertheless, Baker sang throughout the rest of his career. <br> Click  <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO200ybe?si=307daa26d63b461b" target="_blank"> here </a> for some of his best work.  <br> <br>
+
+</div>
+<div class="music" style="margin-bottom: 25px;"> <p style="text-align: center;font-size: x-large;text-transform: uppercase;margin-bottom: -2px;margin-top: -2px;" >
+  <b> 10. Ornette Coleman </b> </p> <br> <br> 
+  <div class="row">
+   <div class="column">
+     <img src="https://www.thewire.co.uk/img/max/1200/1200/2015/06/15/Ornette_Coleman_credit_William_Claxton_Courtesy_Demont_Photo_Management.jpg" alt="coleman." style="width: 100%;">
+   </div>
+   <div class="column">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Ornette-Coleman-2008-Heidelberg-schindelbeck.jpg" alt="coleman." style="width:100%;height: 7.2cm;">
+   </div>
+   <div class="column">
+     <img src="https://media.newyorker.com/photos/59096e47c14b3c606c10797d/master/w_2560%2Cc_limit/Bynum-Ornette-Coleman.jpg" alt="coleman" style="width:100%;height: 7.2cm;">
+   </div>
+ </div> 
+
+ <br> Randolph Denard Ornette Coleman (March 9, 1930 – June 11, 2015)[1] was an American jazz saxophonist, violinist, trumpeter, and composer known as a principal founder of the free jazz genre, a term derived from his 1960 album Free Jazz: A Collective Improvisation. His pioneering performances often abandoned the chordal and harmony-based structure found in bebop, instead emphasizing a jarring and avant-garde approach to improvisation. <br> <br> Coleman's "Broadway Blues" and "Lonely Woman" became genre standards and are cited as important early works in free jazz. His album Sound Grammar received the 2007 Pulitzer Prize for Music.[4] AllMusic called him "one of the most important (and controversial) innovators of the jazz avant-garde".<br> <br> Click <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2pcdar?si=5e77d3c3c9b043c1" target="_blank"> here </a> for some of his best work. <br> <br>
+
+ 
+</div>
+
+
+    
+
+    
+</body>
+</html>
