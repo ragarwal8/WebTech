@@ -52,6 +52,11 @@ div.Navigation_Bar li.DropdownList:hover .DropdownBox {display: block;}
     function change1()
     { document.getElementById("a1").src = "me2.JPEG";
     }
+    function change2()
+    {
+      document.getElementById("a1").src = "me1.JPG";
+    }
+
     var fz=10;  
 	   function resize() 
 	   {
@@ -106,15 +111,14 @@ div.Navigation_Bar li.DropdownList:hover .DropdownBox {display: block;}
                       </li>
           
         
-        </div>
-      </li>
+       
      
       </ul>
       </div>
     &nbsp;
     <div class="gallery">
         <a target="_blank" href="me1.JPG">
-          <img src="me1.JPG" id="a1" alt="picture of me" onmouseover="change1()" style="width: 9cm;height: 10cm;">
+          <img src="me1.JPG" id="a1" alt="picture of me" onmouseover="change1()" onmouseout="change2()" style="width: 9cm;height: 10cm;">
         </a> </div> <br> <br> 
        <hr> 
        <p style="text-align: center;color: rgb(185, 131, 30);font-size: 15pt;">  I'm currently listening to: <span id="texts" style="color: cadetblue;"> </span> </p>
